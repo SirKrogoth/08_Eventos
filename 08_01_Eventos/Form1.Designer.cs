@@ -1,16 +1,16 @@
-﻿namespace _08_Eventos
+﻿namespace _08_01_Eventos
 {
-    partial class Form1
+    partial class frmPrincipal
     {
         /// <summary>
-        /// Variável de designer necessária.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpar os recursos que estão sendo usados.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Código gerado pelo Windows Form Designer
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necessário para suporte ao Designer - não modifique 
-        /// o conteúdo deste método com o editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -33,21 +33,20 @@
             // 
             // button1
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(51, 32);
+            this.button1.Location = new System.Drawing.Point(130, 70);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(178, 159);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Clicque aqui seu rosca";
+            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(286, 243);
+            this.ClientSize = new System.Drawing.Size(343, 208);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "frmPrincipal";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
@@ -58,4 +57,3 @@
         private System.Windows.Forms.Button button1;
     }
 }
-
